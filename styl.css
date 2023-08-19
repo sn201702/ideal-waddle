@@ -1,0 +1,108 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* color: #444; */
+  font-family: sans-serif;
+
+  /* border-top: 10px solid #1098ad; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main-header {
+  background-color: black;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: white;
+}
+.menu-item {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  gap: 25px;
+}
+table {
+  width: 800px;
+  /* background-color: red; */
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 120px;
+}
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 16px 24px;
+  text-align: left;
+  white-space: nowrap;
+}
+td a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 800px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"] input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
